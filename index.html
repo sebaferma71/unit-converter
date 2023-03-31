@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de unidades</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Conversor de unidades</h1>
+        <input type="text" id="input" placeholder="1"/>
+        <button id="convert-btn">Convertir</button>
+    </div>
+    <div class="main">
+        <div class="containers">
+            <h3>Longitud (Metros/Pies)</h3>
+            <p id="long">1 metros = 3.281 pies | 1 pies = 0.305 metros</p>
+        </div>
+        <div class="containers">
+            <h3>Volumen (Litros/Galones)</h3>
+            <p id="vol">1 litros = 0.264 galones | 1 galones = 3.788 litros</p>
+        </div>
+        <div class="containers">
+            <h3>Masa (Kilogramos/Libras)</h3>
+            <p id="mass">1 kilos = 2.204 libras | 1 libras = 0.454 kilos</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
